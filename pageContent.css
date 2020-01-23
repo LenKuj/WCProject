@@ -41,14 +41,12 @@ header button{
    border-radius: 50px;
    transition:all 0.3s ease 0s;
    cursor: pointer;
-}button:hover{
-   background-color: rgba(0,136,169,0.8);
 }
 
-
-
-
-
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+    color: black;
+}
 
 
 /* whole page */
@@ -299,20 +297,19 @@ h3 {
     border-top: 6px solid #04B486 ;
     background-color: #0B614B;
     background: linear-gradient(20deg,#071914,#04B486,#088A85); /*Change colors as you want*/
-    background-size: 400% 400% !important;
+    background-size: 1000% 1000% !important;
     -webkit-animation: changeColors 10s ease infinite;
     -moz-animation: changeColors 10s ease infinite;
     -o-animation: changeColors 10s ease infinite;
-    animation: changeColors 10s ease infinite;
- }.text-center {
+    animation: changeColors 10s ease infinite;}.text-center {
     text-align: center;
     padding: 10px;
- }
+}
  .footer h1 {
      margin: 20px;
      font-size: 20px;
  }
- .designed {
+.designed {
     font-size: 14px;}@-webkit-keyframes changeColors {
     0% {
         background-position: 0 50%;
@@ -323,7 +320,7 @@ h3 {
     100% {
         background-position: 0 50%;
     }
- }
+}
 
 
 

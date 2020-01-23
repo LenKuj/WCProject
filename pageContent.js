@@ -6,16 +6,16 @@ let John = "I would recommend to every visitor of Barcelona to also go visit Mon
 let Melissa = "\"\ If at one point you have to flee the city, montjuic is the place to be. There are so many beautiful gardens, great museums and just a lot of interesting corners.\"\ ";
 
 
-let zitateArray = [Tammy, Hugo, Laura, Steven, John, Melissa, name];
-let besucherArray = ["Tammy S.", "Hugo L.", "Laura V.", "Steven W.", "John Z.", "Mellisa H."];
+let citationArray = [Tammy, Hugo, Laura, Steven, John, Melissa, name];
+let visitorArray = ["Tammy S.", "Hugo L.", "Laura V.", "Steven W.", "John Z.", "Mellisa H."];
 
 
 document.getElementById("mybutton").onclick = function(){
 
             randomNum = Math.floor(Math.random() * 6); 
 
-           document.getElementById("quote").innerHTML = zitateArray[randomNum];
-           document.getElementById("guest").innerHTML = besucherArray[randomNum];
+           document.getElementById("quote").innerHTML = citationArray[randomNum];
+           document.getElementById("guest").innerHTML = visitorArray[randomNum];
         };
 
 
@@ -27,3 +27,6 @@ document.getElementById("mybutton").onclick = function(){
             document.getElementById("opinion").innerHTML = comment + "<br>  " + name;
            
          }
+
+
+

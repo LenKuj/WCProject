@@ -41,8 +41,12 @@ header button{
    border-radius: 50px;
    transition:all 0.3s ease 0s;
    cursor: pointer;
-}button:hover{
+}
+
+button:hover{
+   
    background-color: rgba(0,136,169,0.8);
+   color: black;
 }
 
 
@@ -223,7 +227,6 @@ h3 {
 /* input of visitors */
 
 /*.visitors {
-
    text-align: center;
    margin-top: 50px;
 } */
@@ -339,5 +342,4 @@ h3 {
        background-position: 0 50%;
    }
 }
-
 
