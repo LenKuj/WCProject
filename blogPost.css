@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+li, a, button{
+
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color:rgb(134, 133, 133);
+   text-decoration:none;
+}
+header{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:30px 10%;
+   box-sizing:0;
+   margin: 20px;
+   padding:0;
+   background-color:white;
+}
+.logo{
+   cursor: pointer;
+   height:100px;
+}
+.nav-links{
+   list-style: none;
+}
+.nav-links li{
+   display:inline-block;
+   padding:0px 20px;
+}.nav-links li a{
+   transition:all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+   color:#0088a9;
+}
+header button{
+   padding:9px 25px;
+   background-color: rgba(0,136,169,1);
+   border:none;
+   border-radius: 50px;
+   transition:all 0.3s ease 0s;
+   cursor: pointer;
+}button:hover{
+   background-color: rgba(0,136,169,0.8);
+}
+
+
+
+
+
+
 /* whole page */
 
 @media screen and (min-width: 601px) {
@@ -100,7 +152,15 @@ h3 {
 
        margin: 20px;
        padding: 20px;
+
+    
   } 
+
+  #cafe {
+
+   text-decoration: none;
+   color: black;
+} 
 
   .mobile p {
 
@@ -133,6 +193,12 @@ h3 {
        margin-left: 5px;
        padding: 5px;
   } 
+
+  #cafe {
+
+   text-decoration: none;
+   color: black;
+} 
 
   .span4 .img-left {
 
@@ -239,3 +305,39 @@ h3 {
        } 
 
 }
+
+
+
+/* ----- FOOTER ----*/ 
+.footer{
+   color: white;
+   border-top: 6px solid #04B486 ;
+   background-color: #0B614B;
+   background: linear-gradient(20deg,#071914,#04B486,#088A85); /*Change colors as you want*/
+   background-size: 400% 400% !important;
+   -webkit-animation: changeColors 10s ease infinite;
+   -moz-animation: changeColors 10s ease infinite;
+   -o-animation: changeColors 10s ease infinite;
+   animation: changeColors 10s ease infinite;
+}.text-center {
+   text-align: center;
+   padding: 10px;
+}
+.footer h1 {
+    margin: 20px;
+    font-size: 20px;
+}
+.designed {
+   font-size: 14px;}@-webkit-keyframes changeColors {
+   0% {
+       background-position: 0 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0 50%;
+   }
+}
+
+
