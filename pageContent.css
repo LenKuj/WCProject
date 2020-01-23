@@ -2,247 +2,242 @@
 
 @media screen and (min-width: 601px) {
 
-    .container {
+   .container {
 
-       margin-left: 200px;
-       margin-right: 200px;
-       margin-bottom: 100px;
-       margin-top: 100px;
-      
-    }
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-bottom: 100px;
+      margin-top: 100px;
+     
+   }
 }
 
 @media screen and (max-width: 600px) {
 
-   .container {
+  .container {
 
-       margin-left: 160px;
-       margin-right: 100px;
-       margin-bottom: 50px;
-       margin-top: 50px;
-   }
+      margin-left: 160px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
 }
 
 
 /* Header */
 
 @media screen and (min-width: 601px) {
-   .head {
+  .head {
 
-       background-color: #464646;
-       width: 100%;
-       height: 150px;
-       position: relative;
-       
-   }
+      background-color: #464646;
+      width: 100%;
+      height: 150px;
+      position: relative;
+      
+  }
 
-   .head h1 {
+  .head h1 {
 
-       font-weight: 900;
-   }
+      font-weight: 900;
+  }
 
-   h1 {
+  h1 {
 
-       text-align: center;
-       color: white;
-       position: absolute;
-       left: 40%;
-       top: 30px;
-       
-       }
- }
+      text-align: center;
+      color: white;
+      position: absolute;
+      left: 40%;
+      top: 30px;
+      
+      }
+}
 
- @media screen and (max-width: 600px) {
-   .head {
+@media screen and (max-width: 600px) {
+  .head {
 
-       background-color: #464646;
-       width: 100%;
-       height: 75px;
-       position: relative;
-       
-   }
+      background-color: #464646;
+      width: 100%;
+      height: 75px;
+      position: relative;
+      
+  }
 
-   .head h1 {
+  .head h1 {
 
-       font-weight: 900;
-   }
+      font-weight: 900;
+  }
 
-   h1 {
+  h1 {
 
-       text-align: center;
-       font-size: 30px;
-       color: white;
-       position: absolute;
-       left: 26%;
-       top: 7px;
-       
-       }
- }
+      text-align: center;
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      left: 26%;
+      top: 7px;
+      
+      }
+}
 
- 
+
 
 /* main part */
 
 h3 {
 
-   font-weight: 700;
+  font-weight: 700;
 }
 
 
 
 @media screen and (min-width: 601px) {
-   .contentField p {
-     font-size: 18px;
-   }
-
-   .contentField {
-
-       margin: 20px;
-       padding: 20px;
-  } 
-
-  .mobile p {
-
-   display: none;
+  .contentField p {
+    font-size: 18px;
   }
 
-  .span4 .img-left {
+  .contentField {
 
-   float: left;
-   margin-right: 30px;
+      margin: 20px;
+      padding: 20px;
+ } 
 
-  
+ .mobile p {
+
+  display: none;
+ }
+
+ .span4 .img-left {
+
+  float: left;
+  margin-right: 30px;
+
+ 
 }
 
 .span4 .img-right {
-   float: right;
-   margin-left: 30px;
+  float: right;
+  margin-left: 30px;
 
 }
- }
- 
- @media screen and (max-width: 600px) {
-  .contentField p{
-     /*  font-size: 13px; */
-     display: none;
-   } 
+}
 
-   .contentField {
-
-       margin-left: 5px;
-       padding: 5px;
+@media screen and (max-width: 600px) {
+ .contentField p{
+    /*  font-size: 13px; */
+    display: none;
   } 
 
-  .span4 .img-left {
+  .contentField {
 
-   width: 200px;
-   height: 200px;
-   margin-right: 5px;
+      margin-left: 5px;
+      padding: 5px;
+ } 
 
-  
+ .span4 .img-left {
+
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+
+ 
 }
 
 .span4 .img-right {
-   
+  
 
-   width: 200px;
-   height: 200px;
-   margin-left: 5px;
+  width: 200px;
+  height: 200px;
+  margin-left: 5px;
 
 }
- }
+}
 
 
 /* input of visitors */
 
 /*.visitors {
 
-   text-align: center;
-   margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 } */
 
 @media screen and (min-width: 601px){
 
-     .visitors {
+    .visitors {
 
-       text-align: center;
-       margin-top: 50px;
-     }
-
-
-     #textArea {
+      text-align: center;
+      margin-top: 50px;
+    }
 
 
-       width: 300px;
-       height: 200px;
-     }
+    #textArea {
+
+
+      width: 300px;
+      height: 200px;
+    }
 }
 
 @media screen and (max-width: 600px){
 
-    .visitors {
+   .visitors {
 
-       text-align: center;
-       margin-top: 25px;
-    }
+      text-align: center;
+      margin-top: 25px;
+   }
 
-    #textArea {
+   #textArea {
 
-       width: 200px;
-       height: 100px;
-    }
+      width: 200px;
+      height: 100px;
+   }
 }
-
-
-
 
 /* pictures at the bottom */
 
 @media screen and (min-width: 601px){
 
-   .photos {
+  .photos {
 
-       margin: 60px;
-   }
+      margin: 60px;
+  }
 
-   .enlarge {
+  .enlarge {
 
-       transition: transform 1.3s; /* Animation */
-       width: 200px;
-       height: 200px;
-       margin: 0 auto;
-       
-       } 
-       
-       .enlarge:hover {
-       
-          transform: scale(2.0);
-       } 
-       
+      transition: transform 1.3s; /* Animation */
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      
+      } 
+      
+      .enlarge:hover {
+      
+         transform: scale(2.0);
+      } 
+      
 
 }
 
 @media screen and (max-width: 601px){
 
 
-   .photos {
+  .photos {
 
-       margin-left: 160px;
-         
-    }
+      margin-left: 160px;
+        
+   }
 
-    .enlarge {
+   .enlarge {
 
-       
-       width: 200px;
-       height: 200px;
-       margin: 0 auto;
-       
-       } 
+      
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      
+      } 
 
 }
-
-
 
 
 
